@@ -1,0 +1,530 @@
+/* Arslan Khayrullin */
+/* ISTE-240.05 */
+/* 03/08/2019 */
+
+/* Applies to the whole code */
+body {
+  background: url("../images/MoscowCity.jpg") no-repeat center center fixed; 
+  background-size: cover;
+  position:relative;
+}
+
+/* For navigation bar */
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: DodgerBlue;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+    text-align:center;
+    color:black;
+    border: 0.5px solid black;
+}
+
+li {
+    display: inline;
+    background-color: black;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 35px;
+    text-decoration: none;
+}
+
+/* Hover Elements*/
+li a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+/* Code for my picture */
+.mypic {
+    float: right; 
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thick black solid;
+    padding: 10px 10px;
+    margin-right: 50px;
+}
+
+.mypic2 {
+    float: right; 
+    border: black solid;
+    margin-right: 50px;
+    margin-top: 85px;
+    image-orientation: initial;
+}
+
+/* H1 through H6 attributes */
+h1 {
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Audiowide';font-size: 24px;
+    color: red;
+}
+
+h2 {
+    margin-right: 125px;
+    margin-left: 125px;
+    font-size: 22px;
+    font-family: 'Audiowide';
+    color: red;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    font-size: 68px;
+    font-family: 'Audiowide';
+    color: red;
+}
+
+h4 {
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 22px;
+    font-family: 'Audiowide';
+    color: red;
+    font-weight: bold;
+}
+
+h5 {
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 22px;
+    font-family: 'Times New Roman';
+    color: navy;
+    font-weight: bold;
+    text-align: center;
+}
+
+h6 {
+    font-size: 20px;
+    font-family: 'Alegreya';
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* P attributes */
+p {
+    margin-right: 125px;
+    margin-left: 125px;
+    font-family: 'Alegreya';
+    font-size: 18px;
+}
+
+p.main {
+    font-family: 'Alegreya';
+    font-size: 15px;
+    text-align: center;
+}
+
+p.mainText {
+    font-family: 'Alegreya';
+    font-size: 16px;
+    text-align: center;
+    color: pink;
+}
+
+p.visit {
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: 'Alegreya';
+    font-size: 19px;
+}
+
+p.email {
+    margin-right: 150px;
+    margin-left: 150px;
+    font-weight: bold;
+    font-family: "Lobster", serif;
+    font-style: italic;
+}
+
+p.hotel{
+    margin-right: 125px;
+    margin-left: 125px;
+    font-family: 'Alegreya';
+    font-size: 22px;
+    text-align: center;
+}
+
+p.food{
+    font-family: 'Times New Roman';
+    font-size: 21px;
+    text-align: center;
+}
+
+p.grading {
+    font-family: 'Times New Roman';
+    font-size: 19px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+p.script {
+    text-align: center;
+}
+
+p.outset {
+  border-style: outset;
+}
+
+p.comments {
+  font-family: 'Times New Roman';
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+/* Attributes for the slideshow images */
+#borderMoscow {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+#moscowImage {
+  background: url("../images/MoscowCity.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 0.35;
+  border: 5px solid black;
+  padding: 400px;
+}
+
+#border {
+  border: 5px solid black;
+  padding: 125px;
+}
+
+#backgroundColor {
+  background-color: blue;
+}
+
+/* DIV attributes */
+div.border {
+  background-color: lightgrey;
+  width: 95%;
+  border: 1px solid blue;
+  margin-left: 40px;
+  margin-right: 25px;
+  padding: 2px;
+}
+
+div.border2 {
+  margin-top: 99px;
+  margin-left: 50px;
+  background-color: lightgrey;
+  width: 900px;
+  border: black solid;
+  padding: 50px;
+}
+
+div.border3 {
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: lightgrey;
+  width: 1450px;
+  border: black solid;
+  padding: 50px;
+  opacity: 0.75;
+}
+
+div.border4 {
+  margin-top: 99px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: lightgrey;
+  width: 1200px;
+  border: black solid;
+  padding: 50px;
+  overflow: hidden;
+}
+
+div.border5 {
+  overflow: hidden;
+  background-color: white;
+  border: 1px solid navy;
+}
+
+div.border6 {
+  overflow: hidden;
+  background-color: lightblue;
+  border: 2px solid red;
+}
+
+div.borderleft {
+  margin-left: 150px;
+  overflow: hidden;
+  background-color: lightblue;
+  border: 2px solid red;
+}
+
+div.borderright {
+  margin-right: 150px;
+  overflow: hidden;
+  background-color: lightblue;
+  border: 2px solid red;
+}
+
+div.border7 {
+  overflow: hidden;
+  background-color: lavender;
+  border: 1px solid black;
+  width: 900px;
+  height: 350px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+div.border8 {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: lightgrey;
+  width: 1450px;
+  border: black solid;
+  padding: 50px;
+  opacity: 0.80;
+}
+
+div.border9 {
+  overflow: hidden;
+  background-color: white;
+  border: 2px solid red;
+}
+
+div.footer {
+  border: 0.5px solid white;
+}
+
+/* IMG attributes */
+#left {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  float: left;
+  display: block;
+}
+
+#left2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  float: left;
+  display: block;
+}
+
+#right {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  float: right;
+  display: block;
+}
+
+#right2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  float: right;
+  display: block;
+}
+
+img.foodright {
+  float: right;
+  display: block;
+  border-radius: 90%;
+  margin-top: 80px;
+}
+
+img.foodleft {
+  float: left;
+  display: block;
+  border-radius: 90%;
+  margin-top: 80px;
+}
+
+img.visit {
+  float: right;
+}
+
+img.reference {
+  float: right;
+}
+
+img.fun {
+  padding:1px;
+  border:1px solid #021a40;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.survey {
+  float: left;
+}
+
+/* Creates a horizontal red line */
+hr {
+    display: block;
+    height: 1px;
+    border: 3px solid red;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* Code for the implemented map from a website */
+.mapouter{
+    text-align: right;
+    height: 650px;
+    width: 900px;
+    margin: auto;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none!important; 
+    height: 650px;
+    width: 900px;
+    border-radius: 90%;
+    border-top: 3px solid red;
+}
+
+/* Code for table used in references */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, tr, td {
+  border: 2px solid red;
+  text-align: left;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+/* More slideshow attributes */
+* {
+  box-sizing: border-box
+}
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container attribute */
+.slideshow-container {
+  max-width: 750px;
+  max-height: 350px;
+  position: relative;
+  margin: auto;
+  border: 3px solid navy;
+  border-radius: 10px;
+}
+
+/* Next and previous buttons */
+.prev, .next {
+  cursor: pointer;
+  top: 50%;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  color: white;
+  margin-top: -22px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Numbers for slideshow (1/4 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+/* Footer */
+footer {
+	font-size:.75em;
+	background-color:DodgerBlue;
+	color:black;
+	text-align:center;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+}
+
+/* For comments page */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* For comments page */
+th, tr, td {
+  border: 2px solid red;
+  text-align: left;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 600px) {
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+    text-align:center;
+    color:black;
+    border: 0.5px solid black;
+}
+}
+

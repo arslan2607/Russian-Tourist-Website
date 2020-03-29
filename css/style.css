@@ -1,0 +1,78 @@
+/* Arslan Khayrullin */
+/* ISTE-240 */
+
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 15px;
+    text-align:center;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 35px;
+    text-decoration: none;
+}
+
+/* Hover Elements*/
+li a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+/* Code for profile picture */
+.mypic {
+    float: right; 
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thick black solid;
+    padding: 10px 10px;
+    margin-right: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Audiowide';font-size: 24px;
+    color: red;
+}
+
+h2 {
+    margin-right: 125px;
+    margin-left: 125px;
+    font-size: 22px;
+    font-family: 'Audiowide';
+    color: red;
+    font-weight: bold;
+}
+
+p {
+    margin-right: 125px;
+    margin-left: 125px;
+    font-family: 'Alegreya';
+    font-size: 18px;
+}
+
+p.email {
+    margin-right: 150px;
+    margin-left: 150px;
+    font-weight: bold;
+    font-family: "Lobster", serif;
+    font-style: italic;
+}
+
+/* Center date stamp */
+p.script {
+    text-align: center;
+}

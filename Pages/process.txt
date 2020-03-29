@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Thank you for your Feedback</title>
+	<link rel="stylesheet" type="text/css" href="css/ex04.css">
+
+<!-- Arslan Khayrullin -->
+<!-- ISTE-240 -->
+<!-- 04/19/2019 -->
+
+</head>
+
+<body>
+
+<?php
+	function test_input($data) {
+	  $data = trim($data);
+	  $data = stripslashes($data);
+	  $data = htmlspecialchars($data);
+	  return $data;
+	}
+
+	$name = test_input($_POST['name']);
+        $age = test_input($_POST['age']);
+	$groupNum = test_input($_POST['groupNum']);
+	$vdate = test_input($_POST['vdate']);
+	$bf = test_input($_POST['bf']);
+	$rating = test_input($_POST['rating']);
+	$destination_email = "ak1767@rit.edu, RITISTprofessor@gmail.com";
+
+	$email_subject = "Moscow, Russia - visitor";
+		$email_body = "Visitor name $name\n";
+                $email_body .= "Age $age\n";
+		$email_body .= "Group Size $groupNum\n";
+		$email_body .= "Date Visited=$vdate\n";
+		$email_body .= "Favorite Place $bf\n";
+		$email_body .= "Rating -> $rating\n";
+	mail($destination_email, $email_subject, $email_body);
+	echo "Data Sent";
+?>
+
+	<!-- navbar -->
+	<nav>
+		<ul>
+			<!-- Homepage -->
+			<li> <a href = "http://serenity.ist.rit.edu/~ak1767/240/project2/index.php"> Homepage </a> </li>
+		</ul>
+	</nav>
+
+<!-- Thank you message -->  
+<div id="content">
+  	<figure>  	
+  	<figcaption>Your Feedback can only help us to be a better town.</figcaption>
+	</figure>
+   <article>
+	<p>Thank you so much for taking the time out of your
+	day to complete our short survey. We hope you enjoyed your visit to Russia. Hope         to see you back soon!</p>
+    </article>
+</div>
+
+<!-- Html Validator -->       
+   <p>
+      <a href="https://validator.w3.org/check?uri=referer"><img
+          src="http://www.w3.org/Icons/valid-xhtml10"
+          alt="Valid XHTML 1.0!" height="31" width="88" /></a>
+    </p>
+
+<!-- Css Validator -->
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+    </a>
+</body>
+</html>

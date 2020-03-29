@@ -1,0 +1,148 @@
+body{
+	margin: 0px;
+	background-color:lightgrey;
+}
+
+/** navbar css **/ 
+
+.MyTown p {
+	display:inline;
+}
+
+.MyTown input {
+	display:inline;
+}
+
+nav ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	overflow: hidden;
+	background-color: #333333;
+}
+
+nav li{
+	float: left; 
+	color: red;
+	font-weight:bold;
+	font-size: 30px;
+	text-align: center;
+}
+
+nav li > a{
+	display: block;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	padding: 14px 16px;
+	color: rgba(245,132,40,1);
+}
+
+nav li a:hover{
+	background-color: #111111;
+}
+/** navbar ends here **/
+
+
+/** Used to underline h2 tag **/ 
+
+.underline{
+	border-bottom: 1px solid #000000;
+}
+
+/** Positioning for elements on the page **/
+
+form{
+	margin-left: 2em;
+	float: left;
+	font-family: sans-serif;	
+}
+
+/*    *************
+p{
+	display: inline;
+}
+******************* */
+
+.favspace{
+    width: 250px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+	
+}
+
+label{
+    float: left;
+}
+
+#content  {
+    margin-top:2em;
+    margin-left:8em;
+    }
+
+article {
+    margin-top:10px;
+    padding-left:15px;
+    padding-right:15px;
+    width:30em;
+    text-align:justify;
+    font-size:1.75em;
+    border: solid black 1px;
+}
+
+#headingquestion{
+    position:relative;
+    top:-15px;
+}
+
+#numgroup{
+    position:relative;
+    top:-2px;
+}
+
+#visit{
+    position:relative;
+    top:5px;
+}
+
+#favplace{
+    position:relative;
+    top:15px;
+}
+
+#scrollbar{
+    position:relative;
+    top:20px;
+    left:40px;
+}
+
+#button{
+    position:relative;
+    top:20px;
+    left:85px;
+    width:58px;
+}
+
+.astric {
+    color:red;font-size:40px;
+    position:relative;
+    top:15px; 
+}
+
+#family {
+    position:relative;
+    top:-15px;
+    display:inline;
+}
+
+#name {
+    position:relative;
+    top:-15px;
+    display:inline;
+}
+
+#age {
+    position:relative;
+    top:-15px;
+    display:inline;
+}

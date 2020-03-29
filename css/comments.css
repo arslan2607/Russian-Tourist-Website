@@ -1,0 +1,69 @@
+/* CSS Document */
+/* Arslan Khayrullin  */
+/* ISTE-240.05  */
+/* 04/14/2019  */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, tr, td {
+  border: 2px solid red;
+  text-align: left;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+/* Applies to the whole code */
+body {
+  background: url("../images/MoscowCity.jpg") no-repeat center center fixed; 
+  background-size: cover;
+  position:relative;
+}
+
+/* For navigation bar */
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: DodgerBlue;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+    text-align:center;
+    color:black;
+    border: 0.5px solid black;
+}
+
+li {
+    display: inline;
+    background-color: black;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 35px;
+    text-decoration: none;
+}
+
+/* Hover Elements*/
+li a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+	font-size:.75em;
+	background-color:DodgerBlue;
+	color:black;
+	text-align:center;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+}
+
